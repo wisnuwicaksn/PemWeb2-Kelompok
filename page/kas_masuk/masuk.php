@@ -222,8 +222,8 @@ if(!isset($_SESSION['username'])) {
         <div class="row">
             <div class="col-md-12">
                 <div class="copyright">
-                    Copyright © 2018 All rights reserved. Template by <a href="http://binarycart.com/">Binary Admin</a>
-                    <br> Developed By <a href="https://web.facebook.com/Ions.Revolutionz" target="_blank"><b>Ion's</b></a>
+                    Copyright © 2023 All rights reserved.  <a href="http://instagram.com/">TI.21.C.2</a>
+                    <br> Developed By <a href="https://instagram.com/wisnuwicaksn" target="_blank"><b>Kelompok Kami</b></a>
                 </div>
             </div>
         </div>

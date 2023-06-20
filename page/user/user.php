@@ -14,12 +14,12 @@ if(!isset($_SESSION['username'])) {
 </head>
 <body>
 	<center>
-    <a href="https://web.facebook.com/Ions.Revolutionz" target="_blank">
+    <a href="https://instagram.com/winsuwicaksn" target="_blank">
         <img src="images/contactUs.jpg" alt="" width="600" height="200" class="img-responsive">
     </a>
     <br>
     <br>
-    <p style="font-size: 20px;">To get the other interesting features, please <a href="https://web.facebook.com/Ions.Revolutionz" target="_blank" style="text-decoration: none;">contact us</a>
+    <p style="font-size: 20px;">To get the other interesting features, please <a href="https://instagram.com/wisnuwicaksn" target="_blank" style="text-decoration: none;">contact us</a>
     </p>
 </center>
 </body>
