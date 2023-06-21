@@ -53,7 +53,7 @@ echo date('d-m-Y'); ?> &nbsp; &nbsp; <a href="logout.php" class="btn btn-danger 
                             <a href="home.php"><i class="glyphicon glyphicon-home"></i> Dashboard</a>
                         </li>
                         <li>
-                            <a href="?page=datawarga.php"><i class="glyphicon glyphicon-folder-open"></i> Data Warga</a>
+                            <a href="?page=datawarga"><i class="glyphicon glyphicon-folder-open"></i> Data Warga</a>
                         </li>
                         <li>
                             <a href="?page=masuk"><i class="glyphicon glyphicon-floppy-save"></i> Kas Masuk</a>
@@ -100,6 +100,10 @@ echo date('d-m-Y'); ?> &nbsp; &nbsp; <a href="logout.php" class="btn btn-danger 
                         } elseif ($page == "user") {
                             if($aksi =="") {
                                 include 'page/user/user.php';
+                            }
+                        } elseif ($page == "datawarga") {
+                            if($aksi =="") {
+                                include 'page/datawarga/datawarga.php';
                             }
                         } elseif ($page == "") {                           
                                 include 'dashboard.php';
