@@ -53,6 +53,9 @@ echo date('d-m-Y'); ?> &nbsp; &nbsp; <a href="logout.php" class="btn btn-danger 
                             <a href="home.php"><i class="glyphicon glyphicon-home"></i> Dashboard</a>
                         </li>
                         <li>
+                            <a href="?page=datawarga.php"><i class="glyphicon glyphicon-folder-open"></i> Data Warga</a>
+                        </li>
+                        <li>
                             <a href="?page=masuk"><i class="glyphicon glyphicon-floppy-save"></i> Kas Masuk</a>
                         </li>
                         <li>
