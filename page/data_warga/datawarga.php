@@ -70,23 +70,19 @@ if(!isset($_SESSION['username'])) {
                                                 <?php echo $data['nama']; ?>
                                             </td>
                                             <!-- <td>
-                                                <?php echo date('d F Y', strtotime($data['tgl'])); ?>
+                                                <?php echo $data('nik'); ?>
                                             </td> -->
                                             <td>
                                                 <?php echo $data['keterangan']; ?>
                                             </td>
-                                            <!-- <td align="right">
-                                                <?php echo number_format($data['jumlah']).",-"; ?>
-                                            </td> -->
-                                            <td>
+                                            
+                                            <!-- <td>
                                                 <a id="edit_data" data-toggle="modal" data-target="#edit" data-id="<?php echo $data['kode']; ?>" data-ket="<?php echo $data['keterangan']; ?>" data-tgl="<?php echo $data['tgl']; ?>" data-jml="<?php echo $data['jumlah']; ?>" class="btn btn-warning btn-md" title="Ubah Data"><i class="fa fa-edit"> </i></a>
                                                 <a onclick="return confirm('Apakah anda yakin ingin menghapus data?')" href="?page=masuk&aksi=hapus&id=<?php echo $data['kode'];?>" class="btn btn-danger btn-md" title="Hapus Data"><i class="fa fa-trash"> </i></a>
-                                            </td>
+                                            </td> -->
                                         </tr>
-                                        <?php 
-                                    // $total = $total+$data['jumlah'];
+                                        
                                     } 
-                                ?>
                                 </tbody>
 
                                 <tr>
