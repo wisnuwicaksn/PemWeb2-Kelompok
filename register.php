@@ -12,23 +12,25 @@ if (isset($_SESSION['username'])) {
  
 if (isset($_POST['submit'])) {
     $username = $_POST['username'];
-    $email = $_POST['email'];
+    $nik = $_POST['nik'];
+    $norum = $_POST['no_rumah'];
     $password = md5($_POST['password']);
     $cpassword = md5($_POST['cpassword']);
  
     if ($password == $cpassword) {
-        $query = "SELECT * FROM tb_user WHERE email='$email'";
+        $query = "SELECT * FROM tb_warga WHERE nik='$nik'";
         $hasil = mysqli_query($koneksi, "$query");
         if (!$hasil->num_rows > 0) {
-            $query = "INSERT INTO tb_user (username, email, password)
-                    VALUES ('$username', '$email', '$password')";
+            $query = "INSERT INTO tb_warga (nama, nik, no_rumah, password, status)
+                    VALUES ('$username', '$nik', '$norum', '$password', 'warga')";
             $hasil = mysqli_query($koneksi, "$query");
             if ($hasil) {
                 header("Location: login.php");
 
                 echo "<script>alert('Selamat, registrasi berhasil!')</script>";
                 $username = "";
-                $email = "";
+                $nik = "";
+                $norum = "";
                 $_POST['password'] = "";
                 $_POST['cpassword'] = "";
             } else {
@@ -66,7 +68,10 @@ if (isset($_POST['submit'])) {
                 <input type="text" placeholder="Username" name="username" value="<?php echo $username; ?>" required>
             </div>
             <div class="input-group">
-                <input type="email" placeholder="Email" name="email" value="<?php echo $email; ?>" required>
+                <input type="text" placeholder="NIK" name="nik" value="<?php echo $nik; ?>" required>
+            </div>
+            <div class="input-group">
+                <input type="text" placeholder="No Rumah" name="no_rumah" value="<?php echo $_POST['no_rumah']; ?>" required>
             </div>
             <div class="input-group">
                 <input type="password" placeholder="Password" name="password" value="<?php echo $_POST['password']; ?>" required>
