@@ -54,7 +54,7 @@ if(!isset($_SESSION['username'])) {
                                 <tbody>
                                     <?php
                                     $no = 1;
-                                    $sql = mysqli_query($koneksi, "SELECT * FROM tb_warga");
+                                    $sql = mysqli_query($koneksi, "SELECT * FROM tb_warga WHERE status = 'warga'");
                                     while ($data = mysqli_fetch_assoc($sql)) {
                                         ?>
                                         <tr class="odd gradeX">
