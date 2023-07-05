@@ -1,3 +1,9 @@
+# PemWeb2-Kelompok
+## Diagram ERD Diagram
+
+
+![Entity Relationship Diagram](https://github.com/Indri211/PemWeb2-Kelompok/assets/116372279/fc1446e6-fc84-44f9-8253-51cc39987808)
+
 ![Screenshot_2023-07-01_165356-removebg-preview](https://github.com/adityabudi09/PemWeb2-Kelompok/assets/115923969/9fd381f4-091c-4e28-b447-e86ed08db53c)
 # KAS RT
 Program Sederhana Aplikasi Administrasi [KAS RT](http://wisnuwicaksn.byethost12.com/pengelolaanKasFree)
@@ -28,5 +34,3 @@ Instalasi:
 
 ## Demo Aplikasi
 #### [KAS RT](http://wisnuwicaksn.byethost12.com/pengelolaanKasFree)
-
-
