@@ -1,4 +1,11 @@
 # PemWeb2-Kelompok
+Anggota Kelompok :
+1. Wisnu Adi W      (312110037)
+2. Widayanti        (312110026)
+3. Riski Berkah S   (312110032)
+4. Indri Lestari 
+5. Dwi Aditya Budi
+
 ## Diagram ERD Diagram
 
 
