@@ -1,6 +1,6 @@
 <?php
 session_start();
-if(isset($_SESSION['username'])) {
+if(isset($_SESSION['nik'])) {
     header("Location: home.php");
     die();
 }
@@ -57,8 +57,8 @@ if(isset($_SESSION['username'])) {
                                 <div class="login-form">
                                     <form action="ceklogin.php" method="post">
                                         <div class="form-group">
-                                            <label><b>Nama Pengguna</b></label>
-                                            <input class="au-input au-input--full" type="text" name="username" placeholder="Username ">
+                                            <label><b>NIK KTP</b></label>
+                                            <input class="au-input au-input--full" type="number" name="nik" placeholder="NIK">
                                         </div>
                                         <div class="form-group">
                                             <label><b>Kata Sandi</b></label>

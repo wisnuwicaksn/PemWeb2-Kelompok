@@ -11,6 +11,7 @@ error_reporting(E_ALL ^ (E_NOTICE | E_WARNING));
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Pengelolaan Kas</title>
+        <link rel="icon" href="https://github.com/adityabudi09/PemWeb2-Kelompok/assets/115923969/9fd381f4-091c-4e28-b447-e86ed08db53c" type="image/png">
 
         <!-- BOOTSTRAP STYLES-->
         <link href="assets/css/bootstrap.css" rel="stylesheet" />
@@ -46,7 +47,7 @@ echo date('d-m-Y'); ?> &nbsp; &nbsp; <a href="logout.php" class="btn btn-danger 
                 <div class="sidebar-collapse">
                     <ul class="nav" id="main-menu">
                         <li class="text-center">
-                            <img src="assets/img/find_user2.png" class="user-image img-responsive" />
+                            <img src="https://github.com/adityabudi09/PemWeb2-Kelompok/assets/115923969/9fd381f4-091c-4e28-b447-e86ed08db53c" class="user-image img-responsive" />
                         </li>
 
                         <li>
