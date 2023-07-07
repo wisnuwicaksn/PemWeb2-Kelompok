@@ -40,4 +40,12 @@ Instalasi:
 
 
 ## Demo Aplikasi
+#1. Login
+
+![image](https://github.com/wisnuwicaksn/PemWeb2-Kelompok/assets/116352745/1481dfdd-3c88-4cc5-813e-8666780d6c40)
+
+#2. Tampilan Home
+
+![image](https://github.com/wisnuwicaksn/PemWeb2-Kelompok/assets/116352745/712f3363-2a12-43f3-b08b-c06e61d3c9de)
+
 #### [KAS RT](http://wisnuwicaksn.byethost12.com/pengelolaanKasFree)
